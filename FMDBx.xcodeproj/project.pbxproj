@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28DE789E12C74736A72958BC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE26C0112A994742AF2509ED /* libPods.a */; };
+		607767DD8AFF723E7991C903 /* Pods_FMDBx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82A718C407B5C3A77782E13 /* Pods_FMDBx.framework */; };
 		C254D20419317EDC0040AE69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C254D20319317EDC0040AE69 /* Foundation.framework */; };
 		C254D20619317EDC0040AE69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C254D20519317EDC0040AE69 /* CoreGraphics.framework */; };
 		C254D20819317EDC0040AE69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C254D20719317EDC0040AE69 /* UIKit.framework */; };
@@ -41,7 +41,7 @@
 		C29353271945839B003D2E6B /* users.csv in Resources */ = {isa = PBXBuildFile; fileRef = C29353261945839B003D2E6B /* users.csv */; };
 		C293532819458484003D2E6B /* users.csv in Resources */ = {isa = PBXBuildFile; fileRef = C29353261945839B003D2E6B /* users.csv */; };
 		C2E4C59B1945AEA900F67DAA /* FMXTestMigration2.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E4C59A1945AEA900F67DAA /* FMXTestMigration2.m */; };
-		C2F9F91B1B903DD700856D3F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F9F91A1B903DD700856D3F /* libPods.a */; };
+		F37262C9F2A1BF5581927F94 /* Pods_FMDBxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41EB6276CECE51DE658D80B /* Pods_FMDBxTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24F5249AA8EE3783E0BD1DCE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		AE26C0112A994742AF2509ED /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D874EA1C3CD9AD4863B7CCC /* Pods-FMDBx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDBx.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMDBx/Pods-FMDBx.release.xcconfig"; sourceTree = "<group>"; };
+		4FB3E3191A35A5FAE254F270 /* Pods-FMDBxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDBxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMDBxTests/Pods-FMDBxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E645ACFBD06A460912AC8AF /* Pods-FMDBx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDBx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMDBx/Pods-FMDBx.debug.xcconfig"; sourceTree = "<group>"; };
+		A3B14CBA3B8D5D92A64C8CA6 /* Pods-FMDBxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDBxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMDBxTests/Pods-FMDBxTests.release.xcconfig"; sourceTree = "<group>"; };
+		B41EB6276CECE51DE658D80B /* Pods_FMDBxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FMDBxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C254D20019317EDC0040AE69 /* FMDBx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMDBx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C254D20319317EDC0040AE69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C254D20519317EDC0040AE69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -108,7 +111,7 @@
 		C2E4C5991945AEA900F67DAA /* FMXTestMigration2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMXTestMigration2.h; sourceTree = "<group>"; };
 		C2E4C59A1945AEA900F67DAA /* FMXTestMigration2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMXTestMigration2.m; sourceTree = "<group>"; };
 		C2F9F91A1B903DD700856D3F /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
-		F2D8DA015704455B3EDE2550 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D82A718C407B5C3A77782E13 /* Pods_FMDBx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FMDBx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +122,7 @@
 				C254D20619317EDC0040AE69 /* CoreGraphics.framework in Frameworks */,
 				C254D20819317EDC0040AE69 /* UIKit.framework in Frameworks */,
 				C254D20419317EDC0040AE69 /* Foundation.framework in Frameworks */,
-				28DE789E12C74736A72958BC /* libPods.a in Frameworks */,
+				607767DD8AFF723E7991C903 /* Pods_FMDBx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,21 +130,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2F9F91B1B903DD700856D3F /* libPods.a in Frameworks */,
 				C254D21D19317EDC0040AE69 /* XCTest.framework in Frameworks */,
 				C254D21F19317EDC0040AE69 /* UIKit.framework in Frameworks */,
 				C254D21E19317EDC0040AE69 /* Foundation.framework in Frameworks */,
+				F37262C9F2A1BF5581927F94 /* Pods_FMDBxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		65D1D3A84606CED6E126B1A6 /* Pods */ = {
+		80B561B12D1A91628C801141 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F2D8DA015704455B3EDE2550 /* Pods.debug.xcconfig */,
-				24F5249AA8EE3783E0BD1DCE /* Pods.release.xcconfig */,
+				9E645ACFBD06A460912AC8AF /* Pods-FMDBx.debug.xcconfig */,
+				0D874EA1C3CD9AD4863B7CCC /* Pods-FMDBx.release.xcconfig */,
+				4FB3E3191A35A5FAE254F270 /* Pods-FMDBxTests.debug.xcconfig */,
+				A3B14CBA3B8D5D92A64C8CA6 /* Pods-FMDBxTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -153,7 +158,7 @@
 				C254D22219317EDC0040AE69 /* FMDBxTests */,
 				C254D20219317EDC0040AE69 /* Frameworks */,
 				C254D20119317EDC0040AE69 /* Products */,
-				65D1D3A84606CED6E126B1A6 /* Pods */,
+				80B561B12D1A91628C801141 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,7 +179,8 @@
 				C254D20519317EDC0040AE69 /* CoreGraphics.framework */,
 				C254D20719317EDC0040AE69 /* UIKit.framework */,
 				C254D21C19317EDC0040AE69 /* XCTest.framework */,
-				AE26C0112A994742AF2509ED /* libPods.a */,
+				D82A718C407B5C3A77782E13 /* Pods_FMDBx.framework */,
+				B41EB6276CECE51DE658D80B /* Pods_FMDBxTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -300,11 +306,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C254D22C19317EDC0040AE69 /* Build configuration list for PBXNativeTarget "FMDBx" */;
 			buildPhases = (
-				68936D993AD04EBFB35ECEB1 /* Check Pods Manifest.lock */,
+				7AB73F71E6E0C572CDE4729E /* [CP] Check Pods Manifest.lock */,
 				C254D1FC19317EDC0040AE69 /* Sources */,
 				C254D1FD19317EDC0040AE69 /* Frameworks */,
 				C254D1FE19317EDC0040AE69 /* Resources */,
-				0E3E3EE8431D42C5866673E1 /* Copy Pods Resources */,
+				76140E04FA90FD222C0339B4 /* [CP] Embed Pods Frameworks */,
+				20F30D614F0200072A81572A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -319,9 +326,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C254D22F19317EDC0040AE69 /* Build configuration list for PBXNativeTarget "FMDBxTests" */;
 			buildPhases = (
+				03B6DE3FCFDFFB0A4659EE34 /* [CP] Check Pods Manifest.lock */,
 				C254D21719317EDC0040AE69 /* Sources */,
 				C254D21819317EDC0040AE69 /* Frameworks */,
 				C254D21919317EDC0040AE69 /* Resources */,
+				B2B1970C08EDB364B1BB269E /* [CP] Embed Pods Frameworks */,
+				3667C08469DD2AF51B808B4B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -389,34 +399,103 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0E3E3EE8431D42C5866673E1 /* Copy Pods Resources */ = {
+		03B6DE3FCFDFFB0A4659EE34 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FMDBxTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		68936D993AD04EBFB35ECEB1 /* Check Pods Manifest.lock */ = {
+		20F30D614F0200072A81572A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMDBx/Pods-FMDBx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3667C08469DD2AF51B808B4B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMDBxTests/Pods-FMDBxTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76140E04FA90FD222C0339B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FMDBx/Pods-FMDBx-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMDBx/Pods-FMDBx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AB73F71E6E0C572CDE4729E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FMDBx-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2B1970C08EDB364B1BB269E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMDBxTests/Pods-FMDBxTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -520,7 +599,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -552,7 +631,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -560,7 +639,7 @@
 		};
 		C254D22D19317EDC0040AE69 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2D8DA015704455B3EDE2550 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 9E645ACFBD06A460912AC8AF /* Pods-FMDBx.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -574,7 +653,7 @@
 		};
 		C254D22E19317EDC0040AE69 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24F5249AA8EE3783E0BD1DCE /* Pods.release.xcconfig */;
+			baseConfigurationReference = 0D874EA1C3CD9AD4863B7CCC /* Pods-FMDBx.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -588,6 +667,7 @@
 		};
 		C254D23019317EDC0040AE69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB3E3191A35A5FAE254F270 /* Pods-FMDBxTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FMDBx.app/FMDBx";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -614,6 +694,7 @@
 		};
 		C254D23119317EDC0040AE69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B14CBA3B8D5D92A64C8CA6 /* Pods-FMDBxTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FMDBx.app/FMDBx";
 				FRAMEWORK_SEARCH_PATHS = (
