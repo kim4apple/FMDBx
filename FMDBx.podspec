@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
   s.source_files = 'FMDBx/Classes/*.{h,m}'
   s.library      = 'sqlite3'
   s.requires_arc = true
-  s.platform     = :ios
+  s.ios.deployment_target     = '9.0'
+  s.osx.deployment_target     = '10.10'
   s.dependency 'FMDB'
 
 end
